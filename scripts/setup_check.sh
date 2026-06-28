@@ -1,8 +1,8 @@
 #!/bin/bash
 
-echo "========================================"
+
 echo "         SYSTEM SETUP CHECK             "
-echo "========================================"
+
 
 echo "Hostname: $(hostname)"
 echo "Current User: $USER"
@@ -31,7 +31,7 @@ else
     echo "Disk Space: [OK] (${free_space}GB remaining)"
 fi
 
-echo "========================================"
+
 echo "         CHECK COMPLETE                 "
-echo "========================================"
+
 echo "Checking ArIES workspace dependencies..."
