@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# 1. Accept one argument, default to current directory if empty
+#
 TARGET_DIR="${1:-.}"
 
 # 2. Check if the path contains a .git folder
@@ -13,9 +13,9 @@ fi
 cd "$TARGET_DIR" || exit 1
 
 # 3. Gather and print repository details
-echo "========================================"
+
 echo "            GIT SUMMARY                 "
-echo "========================================"
+
 
 echo "Current Branch:"
 git branch --show-current
