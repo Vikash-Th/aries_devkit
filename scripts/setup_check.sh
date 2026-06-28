@@ -34,3 +34,4 @@ fi
 echo "========================================"
 echo "         CHECK COMPLETE                 "
 echo "========================================"
+echo "Checking ArIES workspace dependencies..."
